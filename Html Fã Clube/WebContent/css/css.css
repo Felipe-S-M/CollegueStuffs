@@ -1,0 +1,139 @@
+@charset "UTF-8";
+body{
+	margin: 0 auto;
+	font-family:"fantasy",sans-serif;
+}
+.barner{
+	height: 15px;
+	background-color:#9c27b0;
+}
+header{
+	height: 160px;
+	background-color:#d05ce3;
+}
+header h1{
+	float: left;
+	margin:50px 0 0 30px;
+	font-size:60px;
+	color:white;
+}
+section a{
+	color: Black;
+	text-decoration: none;
+	text-align: center;
+}
+header img{
+	float: left;
+	height: 140px;
+	width: 150px;
+	margin: 10px;
+}
+.backGroundUm{
+	padding: 0;
+	height: 670px;
+	background-color:#9c27b0;	
+}
+.backGroundDois{
+	margin: auto;
+  	padding: 1%;
+	width:30%;
+	height: 100%;
+	background-color:white;	
+}
+#backGroundUm{
+	padding: 0;
+	height: 500px;
+	background-color:#9c27b0;	
+}
+#backGroundDois{
+	margin: auto;
+  	padding: 1%;
+	width:30%;
+	height: 100%;
+	background-color:white;	
+}
+.Sprite{
+	display: block;
+	height: 150px;
+  	margin: 18% auto 0 auto;
+  	width: 40%;
+}
+.statusGarchomp{
+	border-collapse: collapse;
+	margin: 3% auto;
+	text-align: center;
+}
+.statusGarchomp tr,.statusGarchomp td,.statusGarchomp th{
+	border: 1px solid #000000;
+	padding: 5px;
+	font-size: 14px;
+}
+.formulario{
+	width: 70%;
+	margin: 15% auto;
+	font-weight: bold;
+}
+.formularioGenero{
+	margin: auto 2% auto;
+	text-align: center;
+}
+.formularioGenero tr,.formularioGenero td,.formularioGenero th{
+	width: 20px;
+	padding: 5px;
+	text-align: left;
+	font-size: 14px;
+}
+.formulario input, .faleConosco textarea, .faleConosco select{
+	margin: 5px auto;
+	width: 100%;
+	padding: 5px 0;
+}
+.formulario button{
+	width: 30%;
+	margin: 0 10%;
+	color: white;
+	border-style: none;
+  	border-radius: 5px;
+	background-color: #9c27b0;
+	font-weight: bold;
+	font-size: 16px;
+} 
+.tabelaMoveSet{
+	border-collapse: collapse;
+	border-style: hidden; 
+    box-shadow: 0 0 0 1px #d05ce3;
+	border-radius: 16px;
+	margin: 3% auto;
+	background-color:#d05ce3;
+}
+.tabelaMoveSet tr,.tabelaMoveSet td,.tabelaMoveSet th{
+	padding: 5px;
+	text-align: left;
+	font-size: 14px;
+}
+#checkbox{
+	float: left;
+	width: 10%;
+	margin: 1px auto;
+}
+.botao{ 
+	float: left;
+	color:white;
+	margin: 0 0 0 6%;
+  	width: 40.5%;
+  	border-style: none;
+  	border-radius: 5px;
+  	padding: 8px 0;
+  	margin-bottom: 25px;
+	background-color: #9c27b0;
+}
+footer{
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	background-color:#6a0080;
+	color: white;
+	text-align:center;
+	padding:10px;
+}
